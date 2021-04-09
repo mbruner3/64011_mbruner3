@@ -1,0 +1,13 @@
+[ODBC]
+DRIVER=Microsoft Access Driver (*.mdb, *.accdb)
+UID=admin
+UserCommitSync=Yes
+Threads=3
+SafeTransactions=0
+PageTimeout=5
+MaxScanRows=8
+MaxBufferSize=2048
+FIL=MS Access
+DriverId=281
+DefaultDir=c:\Users\markd\OneDrive\Desktop\Business Analytics\System Simulation\Assignment 4
+DBQ=C:\Users\markd\OneDrive\Desktop\Business Analytics\System Simulation\Assignment 4\mbruner3_exercise6_2.accdb

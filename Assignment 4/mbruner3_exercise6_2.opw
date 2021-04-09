@@ -1,0 +1,14 @@
+[RESOURCES]
+Machine 1
+Machine 2
+[VARIABLES]
+Parts Arrive.NumberOut
+Machine 2 Process.NumberOut
+Machine 1 Process.NumberOut
+Machine 2 Process.NumberIn
+Machine 1 Process.NumberIn
+Machine 2 Process.WaitTime
+Machine 1 Process.WaitTime
+Machine 2 Process.VATime
+Machine 1 Process.VATime
+Part Leaves.NumberOut

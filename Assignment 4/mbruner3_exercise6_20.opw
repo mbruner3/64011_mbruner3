@@ -1,0 +1,9 @@
+[RESOURCES]
+Loan Officer
+[VARIABLES]
+One of the People Processes All Four Steps.VATime
+Application Departs.NumberOut
+Application Arrives.NumberOut
+One of the People Processes All Four Steps.NumberIn
+One of the People Processes All Four Steps.NumberOut
+One of the People Processes All Four Steps.WaitTime

@@ -1,0 +1,1595 @@
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         11.002     2.4884     .00000     59.775       1782    
+Machine 2 Process.WaitTimePerEntity         96.530     (Corr)     .00000     252.66        891    
+Machine 1 Process.TotalTimePerEntity        19.209     2.4911     4.9195     70.491       1782    
+Machine 2 Process.VATimePerEntity           18.785     .05862     16.489     20.669        891    
+Total Cycle Time                            153.80     (Corr)     31.427     356.25        891    
+Machine 1 Process.VATimePerEntity           8.2076     .05652     4.6642     10.874       1782    
+Machine 2 Process.TotalTimePerEntity        115.31     (Corr)     16.887     271.88        891    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         96.577     (Corr)     .00000     252.66        891    
+Machine 1 Process.Queue.WaitingTime         10.998     2.4884     .00000     59.775       1783    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   8.0059     (Corr)     .00000     20.000     7.0000    
+Machine 1.NumberBusy                        .85451     .02582     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .85451     .02582     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .97794     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .97794     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       5.0276     (Corr)     .00000     14.000     4.0000    
+Machine 1 Process.Queue.NumberInQueue       1.1458     .27797     .00000     7.0000     1.0000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           153.80    
+TotalAveInMachine2                          5.0276    
+TotalAveInMachine1                          1.1458    
+Machine 2 Process Number Out                891.00    
+Machine 1 Process Number Out                1782.0    
+Machine 2 Process Number In                 891.00    
+Machine 1 Process Number In                 1784.0    
+Machine 2 Process Accum Wait Time           86008.    
+Machine 1 Process Accum Wait Time           19605.    
+Machine 2 Process Accum VA Time             16738.    
+Machine 1 Process Accum VA Time             14625.    
+Parts.NumberIn                              893.00    
+Parts.NumberOut                             891.00    
+Machine 1.NumberSeized                      1783.0    
+Machine 1.ScheduledUtilization              .85451    
+Machine 2.NumberSeized                      891.00    
+Machine 2.ScheduledUtilization              .97794    
+System.NumberOut                            .00000    
+
+Beginning replication 2 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 2 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         10.764     2.2766     .00000     85.171       1780    
+Machine 2 Process.WaitTimePerEntity         163.33     (Corr)     .00000     408.38        888    
+Machine 1 Process.TotalTimePerEntity        18.990     2.3045     4.6304     93.691       1780    
+Machine 2 Process.VATimePerEntity           18.815     .07251     16.476     20.730        888    
+Total Cycle Time                            219.93     (Corr)     32.896     486.23        889    
+Machine 1 Process.VATimePerEntity           8.2266     .07207     4.5545     10.951       1780    
+Machine 2 Process.TotalTimePerEntity        182.14     (Corr)     16.989     426.91        888    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         163.40     (Corr)     .00000     408.38        888    
+Machine 1 Process.Queue.WaitingTime         10.765     2.2917     .00000     85.171       1779    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   11.434     (Corr)     .00000     27.000     4.0000    
+Machine 1.NumberBusy                        .85498     .03055     .00000     1.0000     .00000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .85498     .03055     .00000     1.0000     .00000    
+Machine 2.NumberBusy                        .97632     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .97632     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       8.4847     (Corr)     .00000     22.000     3.0000    
+Machine 1 Process.Queue.NumberInQueue       1.1187     .27704     .00000     11.000     .00000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           219.93    
+TotalAveInMachine2                          8.4847    
+TotalAveInMachine1                          1.1187    
+Machine 2 Process Number Out                888.00    
+Machine 1 Process Number Out                1780.0    
+Machine 2 Process Number In                 891.00    
+Machine 1 Process Number In                 1779.0    
+Machine 2 Process Accum Wait Time            1.4504E+5
+Machine 1 Process Accum Wait Time           19160.    
+Machine 2 Process Accum VA Time             16707.    
+Machine 1 Process Accum VA Time             14643.    
+Parts.NumberIn                              891.00    
+Parts.NumberOut                             889.00    
+Machine 1.NumberSeized                      1779.0    
+Machine 1.ScheduledUtilization              .85498    
+Machine 2.NumberSeized                      888.00    
+Machine 2.ScheduledUtilization              .97632    
+System.NumberOut                            .00000    
+
+Beginning replication 3 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 3 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         9.6577     3.5667     .00000     75.534       1661    
+Machine 2 Process.WaitTimePerEntity         60.929     (Corr)     .00000     284.02        828    
+Machine 1 Process.TotalTimePerEntity        17.909     3.5953     4.6523     84.721       1661    
+Machine 2 Process.VATimePerEntity           18.732     .06383     16.508     20.716        828    
+Total Cycle Time                            115.38     (Corr)     29.921     341.27        828    
+Machine 1 Process.VATimePerEntity           8.2512     .06903     4.6056     10.912       1661    
+Machine 2 Process.TotalTimePerEntity        79.662     (Corr)     16.508     303.39        828    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         61.000     (Corr)     .00000     284.02        828    
+Machine 1 Process.Queue.WaitingTime         9.6628     3.5170     .00000     75.534       1661    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   5.6100     (Corr)     .00000     20.000     9.0000    
+Machine 1.NumberBusy                        .80067     .03709     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .80067     .03709     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .90693     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .90693     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       2.9643     (Corr)     .00000     16.000     6.0000    
+Machine 1 Process.Queue.NumberInQueue       .93805     .32596     .00000     9.0000     1.0000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           115.38    
+TotalAveInMachine2                          2.9643    
+TotalAveInMachine1                          .93805    
+Machine 2 Process Number Out                828.00    
+Machine 1 Process Number Out                1661.0    
+Machine 2 Process Number In                 833.00    
+Machine 1 Process Number In                 1660.0    
+Machine 2 Process Accum Wait Time           50449.    
+Machine 1 Process Accum Wait Time           16041.    
+Machine 2 Process Accum VA Time             15510.    
+Machine 1 Process Accum VA Time             13705.    
+Parts.NumberIn                              832.00    
+Parts.NumberOut                             828.00    
+Machine 1.NumberSeized                      1661.0    
+Machine 1.ScheduledUtilization              .80067    
+Machine 2.NumberSeized                      828.00    
+Machine 2.ScheduledUtilization              .90693    
+System.NumberOut                            .00000    
+
+Beginning replication 4 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 4 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         18.884     (Corr)     .00000     121.34       1779    
+Machine 2 Process.WaitTimePerEntity         208.68     (Corr)     .00000     710.39        889    
+Machine 1 Process.TotalTimePerEntity        27.113     (Corr)     4.6212     130.09       1779    
+Machine 2 Process.VATimePerEntity           18.744     .06859     16.459     20.748        889    
+Total Cycle Time                            281.27     (Corr)     34.138     767.65        888    
+Machine 1 Process.VATimePerEntity           8.2286     .06371     4.5717     10.978       1779    
+Machine 2 Process.TotalTimePerEntity        227.42     (Corr)     17.089     730.18        889    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         208.72     (Corr)     .00000     710.39        889    
+Machine 1 Process.Queue.WaitingTime         18.894     (Corr)     .00000     121.34       1779    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   14.636     (Corr)     .00000     42.000     10.000    
+Machine 1.NumberBusy                        .85489     .03332     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .85489     .03332     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .97337     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .97337     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       10.846     (Corr)     .00000     38.000     6.0000    
+Machine 1 Process.Queue.NumberInQueue       1.9621     (Corr)     .00000     14.000     2.0000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           281.27    
+TotalAveInMachine2                          10.846    
+TotalAveInMachine1                          1.9621    
+Machine 2 Process Number Out                889.00    
+Machine 1 Process Number Out                1779.0    
+Machine 2 Process Number In                 891.00    
+Machine 1 Process Number In                 1778.0    
+Machine 2 Process Accum Wait Time            1.8552E+5
+Machine 1 Process Accum Wait Time           33595.    
+Machine 2 Process Accum VA Time             16663.    
+Machine 1 Process Accum VA Time             14638.    
+Parts.NumberIn                              889.00    
+Parts.NumberOut                             888.00    
+Machine 1.NumberSeized                      1779.0    
+Machine 1.ScheduledUtilization              .85489    
+Machine 2.NumberSeized                      889.00    
+Machine 2.ScheduledUtilization              .97337    
+System.NumberOut                            .00000    
+
+Beginning replication 5 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 5 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         12.411     2.8425     .00000     59.272       1739    
+Machine 2 Process.WaitTimePerEntity         116.21     (Corr)     .00000     376.54        864    
+Machine 1 Process.TotalTimePerEntity        20.666     2.8321     4.5563     69.628       1739    
+Machine 2 Process.VATimePerEntity           18.778     .06785     16.506     20.748        864    
+Total Cycle Time                            176.20     (Corr)     30.790     462.19        865    
+Machine 1 Process.VATimePerEntity           8.2551     .07670     4.5563     10.901       1739    
+Machine 2 Process.TotalTimePerEntity        134.99     (Corr)     16.751     396.72        864    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         116.38     (Corr)     .00000     376.54        864    
+Machine 1 Process.Queue.WaitingTime         12.418     2.8406     .00000     59.272       1738    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   9.0240     (Corr)     .00000     26.000     16.000    
+Machine 1.NumberBusy                        .83801     (Corr)     .00000     1.0000     .00000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .83801     (Corr)     .00000     1.0000     .00000    
+Machine 2.NumberBusy                        .94771     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .94771     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       5.9776     (Corr)     .00000     20.000     15.000    
+Machine 1 Process.Queue.NumberInQueue       1.2607     .28674     .00000     8.0000     .00000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           176.20    
+TotalAveInMachine2                          5.9776    
+TotalAveInMachine1                          1.2607    
+Machine 2 Process Number Out                864.00    
+Machine 1 Process Number Out                1739.0    
+Machine 2 Process Number In                 874.00    
+Machine 1 Process Number In                 1737.0    
+Machine 2 Process Accum Wait Time            1.0041E+5
+Machine 1 Process Accum Wait Time           21583.    
+Machine 2 Process Accum VA Time             16224.    
+Machine 1 Process Accum VA Time             14355.    
+Parts.NumberIn                              873.00    
+Parts.NumberOut                             865.00    
+Machine 1.NumberSeized                      1738.0    
+Machine 1.ScheduledUtilization              .83801    
+Machine 2.NumberSeized                      864.00    
+Machine 2.ScheduledUtilization              .94771    
+System.NumberOut                            .00000    
+
+Beginning replication 6 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 6 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         14.584     (Corr)     .00000     98.324       1790    
+Machine 2 Process.WaitTimePerEntity         232.81     (Corr)     .00000     486.99        897    
+Machine 1 Process.TotalTimePerEntity        22.806     (Corr)     4.6678     107.61       1790    
+Machine 2 Process.VATimePerEntity           18.709     .05985     16.488     20.687        897    
+Total Cycle Time                            297.09     (Corr)     33.055     559.79        897    
+Machine 1 Process.VATimePerEntity           8.2219     .08604     4.6280     10.919       1790    
+Machine 2 Process.TotalTimePerEntity        251.52     (Corr)     17.327     505.88        897    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         232.73     (Corr)     .00000     486.99        897    
+Machine 1 Process.Queue.WaitingTime         14.582     5.3962     .00000     98.324       1790    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   15.547     (Corr)     .00000     33.000     2.0000    
+Machine 1.NumberBusy                        .85974     .03169     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .85974     .03169     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .98049     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .98049     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       12.182     (Corr)     .00000     26.000     .00000    
+Machine 1 Process.Queue.NumberInQueue       1.5247     .62614     .00000     13.000     .00000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           297.09    
+TotalAveInMachine2                          12.182    
+TotalAveInMachine1                          1.5247    
+Machine 2 Process Number Out                897.00    
+Machine 1 Process Number Out                1790.0    
+Machine 2 Process Number In                 893.00    
+Machine 1 Process Number In                 1790.0    
+Machine 2 Process Accum Wait Time            2.0883E+5
+Machine 1 Process Accum Wait Time           26106.    
+Machine 2 Process Accum VA Time             16782.    
+Machine 1 Process Accum VA Time             14717.    
+Parts.NumberIn                              893.00    
+Parts.NumberOut                             897.00    
+Machine 1.NumberSeized                      1790.0    
+Machine 1.ScheduledUtilization              .85974    
+Machine 2.NumberSeized                      897.00    
+Machine 2.ScheduledUtilization              .98049    
+System.NumberOut                            .00000    
+
+Beginning replication 7 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 7 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         10.944     4.0970     .00000     94.577       1683    
+Machine 2 Process.WaitTimePerEntity         94.741     (Corr)     .00000     311.61        842    
+Machine 1 Process.TotalTimePerEntity        19.165     4.0866     4.8976     99.751       1683    
+Machine 2 Process.VATimePerEntity           18.799     .06818     16.502     20.763        842    
+Total Cycle Time                            151.86     (Corr)     30.982     430.97        842    
+Machine 1 Process.VATimePerEntity           8.2203     .07419     4.5249     10.927       1683    
+Machine 2 Process.TotalTimePerEntity        113.54     (Corr)     17.083     331.80        842    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         94.854     (Corr)     .00000     311.61        841    
+Machine 1 Process.Queue.WaitingTime         10.944     4.1180     .00000     94.577       1683    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   7.4670     (Corr)     .00000     27.000     1.0000    
+Machine 1.NumberBusy                        .80803     .03470     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .80803     .03470     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .92351     (Insuf)    .00000     1.0000     .00000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .92351     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Process.Queue.NumberInQueue       4.6596     (Corr)     .00000     17.000     .00000    
+Machine 1 Process.Queue.NumberInQueue       1.0759     .43024     .00000     12.000     .00000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           151.86    
+TotalAveInMachine2                          4.6596    
+TotalAveInMachine1                          1.0759    
+Machine 2 Process Number Out                842.00    
+Machine 1 Process Number Out                1683.0    
+Machine 2 Process Number In                 841.00    
+Machine 1 Process Number In                 1683.0    
+Machine 2 Process Accum Wait Time           79772.    
+Machine 1 Process Accum Wait Time           18419.    
+Machine 2 Process Accum VA Time             15828.    
+Machine 1 Process Accum VA Time             13834.    
+Parts.NumberIn                              841.00    
+Parts.NumberOut                             842.00    
+Machine 1.NumberSeized                      1683.0    
+Machine 1.ScheduledUtilization              .80803    
+Machine 2.NumberSeized                      841.00    
+Machine 2.ScheduledUtilization              .92351    
+System.NumberOut                            .00000    
+
+Beginning replication 8 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 8 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         13.527     3.5653     .00000     78.472       1775    
+Machine 2 Process.WaitTimePerEntity         325.26     (Corr)     .00000     760.50        879    
+Machine 1 Process.TotalTimePerEntity        21.848     3.5820     4.7769     88.817       1775    
+Machine 2 Process.VATimePerEntity           18.818     .06304     16.620     20.741        879    
+Total Cycle Time                            386.70     (Corr)     31.013     859.89        878    
+Machine 1 Process.VATimePerEntity           8.3205     .08295     4.6616     10.989       1775    
+Machine 2 Process.TotalTimePerEntity        344.08     (Corr)     16.761     778.85        879    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         325.58     (Corr)     .00000     760.50        879    
+Machine 1 Process.Queue.WaitingTime         13.537     3.5805     .00000     78.472       1775    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   20.114     (Corr)     .00000     49.000     25.000    
+Machine 1.NumberBusy                        .86287     (Corr)     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .86287     (Corr)     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .96638     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .96638     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       16.877     (Corr)     .00000     41.000     19.000    
+Machine 1 Process.Queue.NumberInQueue       1.4070     (Corr)     .00000     10.000     4.0000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           386.70    
+TotalAveInMachine2                          16.877    
+TotalAveInMachine1                          1.4070    
+Machine 2 Process Number Out                879.00    
+Machine 1 Process Number Out                1775.0    
+Machine 2 Process Number In                 897.00    
+Machine 1 Process Number In                 1779.0    
+Machine 2 Process Accum Wait Time            2.8591E+5
+Machine 1 Process Accum Wait Time           24011.    
+Machine 2 Process Accum VA Time             16541.    
+Machine 1 Process Accum VA Time             14769.    
+Parts.NumberIn                              900.00    
+Parts.NumberOut                             878.00    
+Machine 1.NumberSeized                      1775.0    
+Machine 1.ScheduledUtilization              .86287    
+Machine 2.NumberSeized                      879.00    
+Machine 2.ScheduledUtilization              .96638    
+System.NumberOut                            .00000    
+
+Beginning replication 9 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 9 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         9.7752     2.1836     .00000     55.687       1694    
+Machine 2 Process.WaitTimePerEntity         133.88     (Corr)     .00000     400.79        854    
+Machine 1 Process.TotalTimePerEntity        18.062     2.1930     4.6059     65.809       1694    
+Machine 2 Process.VATimePerEntity           18.708     .04688     16.552     20.617        854    
+Total Cycle Time                            188.85     (Corr)     31.066     463.96        855    
+Machine 1 Process.VATimePerEntity           8.2872     .07757     4.5701     10.959       1694    
+Machine 2 Process.TotalTimePerEntity        152.59     (Corr)     17.191     420.29        854    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         133.52     (Corr)     .00000     400.79        854    
+Machine 1 Process.Queue.WaitingTime         9.7751     2.1823     .00000     55.687       1693    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   9.2330     (Corr)     .00000     26.000     1.0000    
+Machine 1.NumberBusy                        .81952     .03920     .00000     1.0000     .00000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .81952     .03920     .00000     1.0000     .00000    
+Machine 2.NumberBusy                        .93315     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .93315     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       6.5154     (Corr)     .00000     22.000     .00000    
+Machine 1 Process.Queue.NumberInQueue       .96491     .25556     .00000     7.0000     .00000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           188.85    
+TotalAveInMachine2                          6.5154    
+TotalAveInMachine1                          .96491    
+Machine 2 Process Number Out                854.00    
+Machine 1 Process Number Out                1694.0    
+Machine 2 Process Number In                 839.00    
+Machine 1 Process Number In                 1690.0    
+Machine 2 Process Accum Wait Time            1.1434E+5
+Machine 1 Process Accum Wait Time           16559.    
+Machine 2 Process Accum VA Time             15977.    
+Machine 1 Process Accum VA Time             14038.    
+Parts.NumberIn                              836.00    
+Parts.NumberOut                             855.00    
+Machine 1.NumberSeized                      1693.0    
+Machine 1.ScheduledUtilization              .81952    
+Machine 2.NumberSeized                      854.00    
+Machine 2.ScheduledUtilization              .93315    
+System.NumberOut                            .00000    
+
+Beginning replication 10 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 10 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         11.419     2.5221     .00000     65.041       1731    
+Machine 2 Process.WaitTimePerEntity         106.44     (Corr)     .00000     301.50        866    
+Machine 1 Process.TotalTimePerEntity        19.670     2.5425     4.6040     73.364       1731    
+Machine 2 Process.VATimePerEntity           18.812     .06288     16.493     20.753        866    
+Total Cycle Time                            164.60     (Corr)     32.022     364.93        867    
+Machine 1 Process.VATimePerEntity           8.2518     .06390     4.6040     10.989       1731    
+Machine 2 Process.TotalTimePerEntity        125.26     (Corr)     16.500     318.76        866    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         106.37     (Corr)     .00000     301.50        866    
+Machine 1 Process.Queue.WaitingTime         11.416     2.4973     .00000     65.041       1730    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   8.3180     (Corr)     .00000     20.000     1.0000    
+Machine 1.NumberBusy                        .83420     .03984     .00000     1.0000     .00000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .83420     .03984     .00000     1.0000     .00000    
+Machine 2.NumberBusy                        .95102     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .95102     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       5.3801     (Corr)     .00000     17.000     .00000    
+Machine 1 Process.Queue.NumberInQueue       1.1527     .26860     .00000     8.0000     .00000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           164.60    
+TotalAveInMachine2                          5.3801    
+TotalAveInMachine1                          1.1527    
+Machine 2 Process Number Out                866.00    
+Machine 1 Process Number Out                1731.0    
+Machine 2 Process Number In                 864.00    
+Machine 1 Process Number In                 1728.0    
+Machine 2 Process Accum Wait Time           92184.    
+Machine 1 Process Accum Wait Time           19766.    
+Machine 2 Process Accum VA Time             16291.    
+Machine 1 Process Accum VA Time             14283.    
+Parts.NumberIn                              862.00    
+Parts.NumberOut                             867.00    
+Machine 1.NumberSeized                      1730.0    
+Machine 1.ScheduledUtilization              .83420    
+Machine 2.NumberSeized                      866.00    
+Machine 2.ScheduledUtilization              .95102    
+System.NumberOut                            .00000    
+
+Beginning replication 11 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 11 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         14.169     3.2892     .00000     68.942       1748    
+Machine 2 Process.WaitTimePerEntity         96.471     (Corr)     .00000     308.88        872    
+Machine 1 Process.TotalTimePerEntity        22.468     3.3137     4.6969     77.817       1748    
+Machine 2 Process.VATimePerEntity           18.765     .06927     16.410     20.649        872    
+Total Cycle Time                            159.97     27.663     30.877     374.80        869    
+Machine 1 Process.VATimePerEntity           8.2992     .08811     4.5720     10.945       1748    
+Machine 2 Process.TotalTimePerEntity        115.23     (Corr)     16.803     328.78        872    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         96.570     (Corr)     .00000     308.88        872    
+Machine 1 Process.Queue.WaitingTime         14.194     3.2892     .00000     68.942       1749    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   8.2030     (Corr)     .00000     21.000     16.000    
+Machine 1.NumberBusy                        .84766     .03179     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .84766     .03179     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .95558     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .95558     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       4.9416     (Corr)     .00000     17.000     8.0000    
+Machine 1 Process.Queue.NumberInQueue       1.4580     .36086     .00000     9.0000     6.0000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           159.97    
+TotalAveInMachine2                          4.9416    
+TotalAveInMachine1                          1.4580    
+Machine 2 Process Number Out                872.00    
+Machine 1 Process Number Out                1748.0    
+Machine 2 Process Number In                 879.00    
+Machine 1 Process Number In                 1755.0    
+Machine 2 Process Accum Wait Time           84123.    
+Machine 1 Process Accum Wait Time           24768.    
+Machine 2 Process Accum VA Time             16363.    
+Machine 1 Process Accum VA Time             14507.    
+Parts.NumberIn                              883.00    
+Parts.NumberOut                             869.00    
+Machine 1.NumberSeized                      1749.0    
+Machine 1.ScheduledUtilization              .84766    
+Machine 2.NumberSeized                      872.00    
+Machine 2.ScheduledUtilization              .95558    
+System.NumberOut                            .00000    
+
+Beginning replication 12 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 12 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         9.4384     2.0407     .00000     65.034       1624    
+Machine 2 Process.WaitTimePerEntity         45.504     12.511     .00000     206.26        816    
+Machine 1 Process.TotalTimePerEntity        17.688     2.0453     4.6384     73.744       1624    
+Machine 2 Process.VATimePerEntity           18.745     .06446     16.544     20.763        816    
+Total Cycle Time                            99.870     15.261     32.164     263.41        816    
+Machine 1 Process.VATimePerEntity           8.2499     .07166     4.6303     10.922       1624    
+Machine 2 Process.TotalTimePerEntity        64.249     12.502     16.727     224.76        816    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         45.264     12.631     .00000     167.58        816    
+Machine 1 Process.Queue.WaitingTime         9.4384     2.0472     .00000     65.034       1624    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   4.6986     .78422     .00000     17.000     2.0000    
+Machine 1.NumberBusy                        .78302     .03803     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .78302     .03803     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .89390     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .89390     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       2.1263     .57073     .00000     9.0000     .00000    
+Machine 1 Process.Queue.NumberInQueue       .89533     .25620     .00000     9.0000     .00000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           99.870    
+TotalAveInMachine2                          2.1263    
+TotalAveInMachine1                          .89533    
+Machine 2 Process Number Out                816.00    
+Machine 1 Process Number Out                1624.0    
+Machine 2 Process Number In                 808.00    
+Machine 1 Process Number In                 1624.0    
+Machine 2 Process Accum Wait Time           37131.    
+Machine 1 Process Accum Wait Time           15328.    
+Machine 2 Process Accum VA Time             15296.    
+Machine 1 Process Accum VA Time             13397.    
+Parts.NumberIn                              808.00    
+Parts.NumberOut                             816.00    
+Machine 1.NumberSeized                      1624.0    
+Machine 1.ScheduledUtilization              .78302    
+Machine 2.NumberSeized                      816.00    
+Machine 2.ScheduledUtilization              .89390    
+System.NumberOut                            .00000    
+
+Beginning replication 13 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 13 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         11.872     3.8918     .00000     68.042       1726    
+Machine 2 Process.WaitTimePerEntity         120.09     (Corr)     .00000     432.31        866    
+Machine 1 Process.TotalTimePerEntity        20.131     3.8712     4.6836     75.298       1726    
+Machine 2 Process.VATimePerEntity           18.748     .06868     16.419     20.715        866    
+Total Cycle Time                            179.31     (Corr)     30.464     514.17        866    
+Machine 1 Process.VATimePerEntity           8.2587     .07738     4.5855     10.946       1726    
+Machine 2 Process.TotalTimePerEntity        138.83     (Corr)     16.922     451.81        866    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         119.97     (Corr)     .00000     432.31        866    
+Machine 1 Process.Queue.WaitingTime         11.872     3.9243     .00000     68.042       1726    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   9.0242     (Corr)     .00000     29.000     3.0000    
+Machine 1.NumberBusy                        .83224     .03028     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .83224     .03028     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .94761     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .94761     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       6.0470     (Corr)     .00000     24.000     .00000    
+Machine 1 Process.Queue.NumberInQueue       1.1973     .38742     .00000     9.0000     1.0000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           179.31    
+TotalAveInMachine2                          6.0470    
+TotalAveInMachine1                          1.1973    
+Machine 2 Process Number Out                866.00    
+Machine 1 Process Number Out                1726.0    
+Machine 2 Process Number In                 860.00    
+Machine 1 Process Number In                 1727.0    
+Machine 2 Process Accum Wait Time            1.0400E+5
+Machine 1 Process Accum Wait Time           20492.    
+Machine 2 Process Accum VA Time             16235.    
+Machine 1 Process Accum VA Time             14254.    
+Parts.NumberIn                              861.00    
+Parts.NumberOut                             866.00    
+Machine 1.NumberSeized                      1726.0    
+Machine 1.ScheduledUtilization              .83224    
+Machine 2.NumberSeized                      866.00    
+Machine 2.ScheduledUtilization              .94761    
+System.NumberOut                            .00000    
+
+Beginning replication 14 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 14 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         12.361     4.7851     .00000     96.874       1711    
+Machine 2 Process.WaitTimePerEntity         89.420     (Corr)     .00000     288.04        858    
+Machine 1 Process.TotalTimePerEntity        20.696     4.8010     4.6557     107.11       1711    
+Machine 2 Process.VATimePerEntity           18.778     .06643     16.481     20.742        858    
+Total Cycle Time                            149.74     (Corr)     29.100     368.53        859    
+Machine 1 Process.VATimePerEntity           8.3340     .05601     4.6557     10.938       1711    
+Machine 2 Process.TotalTimePerEntity        108.19     (Corr)     16.820     306.84        858    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         89.310     (Corr)     .00000     288.04        858    
+Machine 1 Process.Queue.WaitingTime         12.361     4.7803     .00000     96.874       1711    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   7.4624     (Corr)     .00000     23.000     7.0000    
+Machine 1.NumberBusy                        .83306     .03531     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .83306     .03531     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .94143     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .94143     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       4.4517     (Corr)     .00000     16.000     2.0000    
+Machine 1 Process.Queue.NumberInQueue       1.2362     .46234     .00000     12.000     3.0000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           149.74    
+TotalAveInMachine2                          4.4517    
+TotalAveInMachine1                          1.2362    
+Machine 2 Process Number Out                858.00    
+Machine 1 Process Number Out                1711.0    
+Machine 2 Process Number In                 852.00    
+Machine 1 Process Number In                 1711.0    
+Machine 2 Process Accum Wait Time           76722.    
+Machine 1 Process Accum Wait Time           21151.    
+Machine 2 Process Accum VA Time             16111.    
+Machine 1 Process Accum VA Time             14259.    
+Parts.NumberIn                              853.00    
+Parts.NumberOut                             859.00    
+Machine 1.NumberSeized                      1711.0    
+Machine 1.ScheduledUtilization              .83306    
+Machine 2.NumberSeized                      858.00    
+Machine 2.ScheduledUtilization              .94143    
+System.NumberOut                            .00000    
+
+Beginning replication 15 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 15 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         10.723     2.5402     .00000     69.597       1712    
+Machine 2 Process.WaitTimePerEntity         72.191     16.462     .00000     224.77        858    
+Machine 1 Process.TotalTimePerEntity        18.954     2.5653     4.6800     77.383       1712    
+Machine 2 Process.VATimePerEntity           18.779     .06856     16.530     20.719        858    
+Total Cycle Time                            128.82     18.499     31.535     317.90        859    
+Machine 1 Process.VATimePerEntity           8.2303     .06788     4.6797     10.900       1712    
+Machine 2 Process.TotalTimePerEntity        90.970     16.484     16.726     242.79        858    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         72.190     16.455     .00000     224.77        857    
+Machine 1 Process.Queue.WaitingTime         10.725     2.5528     .00000     69.597       1711    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   6.4388     1.1001     .00000     21.000     .00000    
+Machine 1.NumberBusy                        .82288     .03750     .00000     1.0000     .00000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .82288     .03750     .00000     1.0000     .00000    
+Machine 2.NumberBusy                        .94055     (Insuf)    .00000     1.0000     .00000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .94055     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Process.Queue.NumberInQueue       3.6034     .85911     .00000     13.000     .00000    
+Machine 1 Process.Queue.NumberInQueue       1.0719     .28334     .00000     9.0000     .00000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           128.82    
+TotalAveInMachine2                          3.6034    
+TotalAveInMachine1                          1.0719    
+Machine 2 Process Number Out                858.00    
+Machine 1 Process Number Out                1712.0    
+Machine 2 Process Number In                 853.00    
+Machine 1 Process Number In                 1711.0    
+Machine 2 Process Accum Wait Time           61940.    
+Machine 1 Process Accum Wait Time           18359.    
+Machine 2 Process Accum VA Time             16112.    
+Machine 1 Process Accum VA Time             14090.    
+Parts.NumberIn                              853.00    
+Parts.NumberOut                             859.00    
+Machine 1.NumberSeized                      1711.0    
+Machine 1.ScheduledUtilization              .82288    
+Machine 2.NumberSeized                      857.00    
+Machine 2.ScheduledUtilization              .94055    
+System.NumberOut                            .00000    
+
+Beginning replication 16 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 16 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         13.966     4.5061     .00000     87.572       1717    
+Machine 2 Process.WaitTimePerEntity         150.58     (Corr)     .00000     391.34        860    
+Machine 1 Process.TotalTimePerEntity        22.267     4.5379     4.5756     92.310       1717    
+Machine 2 Process.VATimePerEntity           18.750     .08433     16.476     20.761        860    
+Total Cycle Time                            214.06     (Corr)     30.291     515.22        859    
+Machine 1 Process.VATimePerEntity           8.3011     .07558     4.5756     10.997       1717    
+Machine 2 Process.TotalTimePerEntity        169.33     (Corr)     16.655     410.29        860    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         150.51     (Corr)     .00000     391.34        860    
+Machine 1 Process.Queue.WaitingTime         13.981     4.5157     .00000     87.572       1717    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   10.715     (Corr)     .00000     29.000     11.000    
+Machine 1.NumberBusy                        .83227     (Corr)     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .83227     (Corr)     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .94200     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .94200     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       7.5361     (Corr)     .00000     22.000     6.0000    
+Machine 1 Process.Queue.NumberInQueue       1.4049     .49140     .00000     10.000     3.0000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           214.06    
+TotalAveInMachine2                          7.5361    
+TotalAveInMachine1                          1.4049    
+Machine 2 Process Number Out                860.00    
+Machine 1 Process Number Out                1717.0    
+Machine 2 Process Number In                 858.00    
+Machine 1 Process Number In                 1720.0    
+Machine 2 Process Accum Wait Time            1.2950E+5
+Machine 1 Process Accum Wait Time           23980.    
+Machine 2 Process Accum VA Time             16125.    
+Machine 1 Process Accum VA Time             14253.    
+Parts.NumberIn                              860.00    
+Parts.NumberOut                             859.00    
+Machine 1.NumberSeized                      1717.0    
+Machine 1.ScheduledUtilization              .83227    
+Machine 2.NumberSeized                      860.00    
+Machine 2.ScheduledUtilization              .94200    
+System.NumberOut                            .00000    
+
+Beginning replication 17 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 17 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         13.223     (Corr)     .00000     66.352       1734    
+Machine 2 Process.WaitTimePerEntity         139.44     (Corr)     .00000     349.51        863    
+Machine 1 Process.TotalTimePerEntity        21.459     (Corr)     4.6993     73.132       1734    
+Machine 2 Process.VATimePerEntity           18.791     .04380     16.450     20.704        863    
+Total Cycle Time                            201.18     (Corr)     30.856     414.06        864    
+Machine 1 Process.VATimePerEntity           8.2355     .06570     4.5971     10.949       1734    
+Machine 2 Process.TotalTimePerEntity        158.23     (Corr)     17.045     367.21        863    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         139.63     (Corr)     .00000     349.51        863    
+Machine 1 Process.Queue.WaitingTime         13.212     (Corr)     .00000     66.352       1734    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   10.259     (Corr)     .00000     24.000     15.000    
+Machine 1.NumberBusy                        .83410     (Corr)     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .83410     (Corr)     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .94784     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .94784     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       7.1415     (Corr)     .00000     19.000     13.000    
+Machine 1 Process.Queue.NumberInQueue       1.3357     (Corr)     .00000     9.0000     .00000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           201.18    
+TotalAveInMachine2                          7.1415    
+TotalAveInMachine1                          1.3357    
+Machine 2 Process Number Out                863.00    
+Machine 1 Process Number Out                1734.0    
+Machine 2 Process Number In                 870.00    
+Machine 1 Process Number In                 1730.0    
+Machine 2 Process Accum Wait Time            1.2034E+5
+Machine 1 Process Accum Wait Time           22930.    
+Machine 2 Process Accum VA Time             16217.    
+Machine 1 Process Accum VA Time             14280.    
+Parts.NumberIn                              867.00    
+Parts.NumberOut                             864.00    
+Machine 1.NumberSeized                      1734.0    
+Machine 1.ScheduledUtilization              .83410    
+Machine 2.NumberSeized                      863.00    
+Machine 2.ScheduledUtilization              .94784    
+System.NumberOut                            .00000    
+
+Beginning replication 18 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 18 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         9.6419     2.7130     .00000     59.612       1660    
+Machine 2 Process.WaitTimePerEntity         50.239     15.470     .00000     197.44        830    
+Machine 1 Process.TotalTimePerEntity        17.941     2.7235     4.8191     67.440       1660    
+Machine 2 Process.VATimePerEntity           18.747     .07224     16.431     20.718        830    
+Total Cycle Time                            104.86     18.822     29.962     275.62        830    
+Machine 1 Process.VATimePerEntity           8.3000     .07658     4.5323     10.939       1660    
+Machine 2 Process.TotalTimePerEntity        68.987     15.441     16.543     214.24        830    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         50.228     15.565     .00000     197.44        830    
+Machine 1 Process.Queue.WaitingTime         9.6361     2.7130     .00000     59.612       1661    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   5.0843     (Corr)     .00000     17.000     3.0000    
+Machine 1.NumberBusy                        .80510     (Corr)     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .80510     (Corr)     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .90918     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .90918     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       2.4351     (Corr)     .00000     11.000     .00000    
+Machine 1 Process.Queue.NumberInQueue       .93493     .26400     .00000     8.0000     1.0000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           104.86    
+TotalAveInMachine2                          2.4351    
+TotalAveInMachine1                          .93493    
+Machine 2 Process Number Out                830.00    
+Machine 1 Process Number Out                1660.0    
+Machine 2 Process Number In                 830.00    
+Machine 1 Process Number In                 1662.0    
+Machine 2 Process Accum Wait Time           41698.    
+Machine 1 Process Accum Wait Time           16005.    
+Machine 2 Process Accum VA Time             15560.    
+Machine 1 Process Accum VA Time             13778.    
+Parts.NumberIn                              832.00    
+Parts.NumberOut                             830.00    
+Machine 1.NumberSeized                      1661.0    
+Machine 1.ScheduledUtilization              .80510    
+Machine 2.NumberSeized                      830.00    
+Machine 2.ScheduledUtilization              .90918    
+System.NumberOut                            .00000    
+
+Beginning replication 19 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 19 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         12.538     4.3528     .00000     100.28       1708    
+Machine 2 Process.WaitTimePerEntity         106.65     (Corr)     .00000     328.12        858    
+Machine 1 Process.TotalTimePerEntity        20.782     4.3559     4.8882     107.34       1708    
+Machine 2 Process.VATimePerEntity           18.740     .06991     16.477     20.696        858    
+Total Cycle Time                            167.30     (Corr)     30.099     438.02        860    
+Machine 1 Process.VATimePerEntity           8.2443     .07950     4.6490     10.948       1708    
+Machine 2 Process.TotalTimePerEntity        125.39     (Corr)     16.848     345.77        858    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         106.46     (Corr)     .00000     328.12        858    
+Machine 1 Process.Queue.WaitingTime         12.525     4.2969     .00000     100.28       1708    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   8.2897     (Corr)     .00000     29.000     3.0000    
+Machine 1.NumberBusy                        .82231     .03890     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .82231     .03890     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .93947     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .93947     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       5.2828     (Corr)     .00000     18.000     .00000    
+Machine 1 Process.Queue.NumberInQueue       1.2451     .47548     .00000     12.000     1.0000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           167.30    
+TotalAveInMachine2                          5.2828    
+TotalAveInMachine1                          1.2451    
+Machine 2 Process Number Out                858.00    
+Machine 1 Process Number Out                1708.0    
+Machine 2 Process Number In                 848.00    
+Machine 1 Process Number In                 1705.0    
+Machine 2 Process Accum Wait Time           91508.    
+Machine 1 Process Accum Wait Time           21415.    
+Machine 2 Process Accum VA Time             16079.    
+Machine 1 Process Accum VA Time             14081.    
+Parts.NumberIn                              847.00    
+Parts.NumberOut                             860.00    
+Machine 1.NumberSeized                      1708.0    
+Machine 1.ScheduledUtilization              .82231    
+Machine 2.NumberSeized                      858.00    
+Machine 2.ScheduledUtilization              .93947    
+System.NumberOut                            .00000    
+
+Beginning replication 20 of 20
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                  Summary for Replication 20 of 20
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+Replication ended at time      : 20000.0 Minutes 
+Statistics were cleared at time: 2880.0 Minutes (Sunday, April 11, 2021, 00:00:00)
+Statistics accumulated for time: 17120.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Machine 1 Process.WaitTimePerEntity         10.541     (Corr)     .00000     67.539       1754    
+Machine 2 Process.WaitTimePerEntity         138.97     (Corr)     .00000     461.53        876    
+Machine 1 Process.TotalTimePerEntity        18.786     (Corr)     4.9285     73.471       1754    
+Machine 2 Process.VATimePerEntity           18.817     .05013     16.519     20.716        876    
+Total Cycle Time                            195.16     (Corr)     31.202     510.31        876    
+Machine 1 Process.VATimePerEntity           8.2451     .05855     4.6501     10.905       1754    
+Machine 2 Process.TotalTimePerEntity        157.79     (Corr)     17.532     480.00        876    
+Parts.VATime                                    --         --         --         --          0
+Parts.NVATime                                   --         --         --         --          0
+Parts.WaitTime                                  --         --         --         --          0
+Parts.TranTime                                  --         --         --         --          0
+Parts.OtherTime                                 --         --         --         --          0
+Parts.TotalTime                                 --         --         --         --          0
+Machine 2 Process.Queue.WaitingTime         139.02     (Corr)     .00000     461.53        876    
+Machine 1 Process.Queue.WaitingTime         10.542     (Corr)     .00000     67.539       1754    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   10.010     (Corr)     .00000     28.000     6.0000    
+Machine 1.NumberBusy                        .84515     .03114     .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       .84515     .03114     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        .96339     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       .96339     (Insuf)    .00000     1.0000     1.0000    
+Machine 2 Process.Queue.NumberInQueue       7.1218     (Corr)     .00000     25.000     4.0000    
+Machine 1 Process.Queue.NumberInQueue       1.0801     .24310     .00000     8.0000     .00000    
+Machine 1 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+Exit System.NumEntTrans                     .00000     (Insuf)    .00000     1.0000     .00000    
+Machine 2 Station.NumEntTrans               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TotalAveCycleTime                           195.16    
+TotalAveInMachine2                          7.1218    
+TotalAveInMachine1                          1.0801    
+Machine 2 Process Number Out                876.00    
+Machine 1 Process Number Out                1754.0    
+Machine 2 Process Number In                 878.00    
+Machine 1 Process Number In                 1754.0    
+Machine 2 Process Accum Wait Time            1.2174E+5
+Machine 1 Process Accum Wait Time           18489.    
+Machine 2 Process Accum VA Time             16483.    
+Machine 1 Process Accum VA Time             14461.    
+Parts.NumberIn                              878.00    
+Parts.NumberOut                             876.00    
+Machine 1.NumberSeized                      1754.0    
+Machine 1.ScheduledUtilization              .84515    
+Machine 2.NumberSeized                      876.00    
+Machine 2.ScheduledUtilization              .96339    
+System.NumberOut                            .00000    
+
+
+                                      ARENA Simulation Results
+                              markdbruner@gmail.com - License: STUDENT
+
+                                 Output Summary for 20 Replications
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2021
+Analyst: markdbruner@gmail.com                                       Model revision date: 4/ 9/2021
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+TotalAveCycleTime                           186.80     32.450     99.870     386.70     20
+TotalAveInMachine2                          6.4801     1.6515     2.1263     16.877     20
+TotalAveInMachine1                          1.2205     .11760     .89533     1.9621     20
+Machine 2 Process Number Out                862.75     10.125     816.00     897.00     20
+Machine 1 Process Number Out                1725.4     21.355     1624.0     1790.0     20
+Machine 2 Process Number In                 862.50     11.568     808.00     897.00     20
+Machine 1 Process Number In                 1725.3     21.599     1624.0     1790.0     20
+Machine 2 Process Accum Wait Time            1.1086E+5 28030.     37131.      2.8591E+5 20
+Machine 1 Process Accum Wait Time           20888.     2006.8     15328.     33595.     20
+Machine 2 Process Accum VA Time             16192.     193.84     15296.     16782.     20
+Machine 1 Process Accum VA Time             14248.     172.31     13397.     14769.     20
+Parts.NumberIn                              862.60     11.760     808.00     900.00     20
+Parts.NumberOut                             862.90     10.063     816.00     897.00     20
+Machine 1.NumberSeized                      1725.3     21.349     1624.0     1790.0     20
+Machine 1.ScheduledUtilization              .83226     .01005     .78302     .86287     20
+Machine 2.NumberSeized                      862.65     10.155     816.00     897.00     20
+Machine 2.ScheduledUtilization              .94589     .01131     .89390     .98049     20
+System.NumberOut                            .00000     .00000     .00000     .00000     20
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.
